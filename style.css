@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.wrapper {    
+
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./img/blue-bg.png);
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+    padding: 32px 0px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: -0.285714px;
+    color: #FFFFFF;
+}
+.search-input{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #2C2C2C;
+    padding: 18px 24px;
+    border: #FFFFFF;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.0983665);
+    border-radius: 15px 0px 0px 15px;
+    width: 500px;
+    height: 58px;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    -moz-border-radius: 15px 0px 0px 15px;
+    -ms-border-radius: 15px 0px 0px 15px;
+    -o-border-radius: 15px 0px 0px 15px;
+}
+.form{
+
+}
+.search-btn {
+    border: #000;
+    outline: none;
+    margin-left: -5px;
+    color: #FFFFFF;
+    width: 58px;
+    height: 58px;
+    background: #000000;
+    border-radius: 0px 15px 15px 0px;
+}
+.main {
+    margin-top: -75px;
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    height: 161px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.0983665);
+    border-radius: 15px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+
+}
+.hr{
+    padding: 32px 0px;
+    width: 1px;
+    height: 75px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+.grid-item {
+    display: flex;
+    gap: 32px;
+}
+.about{
+    padding: 0px 32px;
+}
+.about-name {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    
+    color: #2C2C2C;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.about-value {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    /* or 115% */
+    
+    letter-spacing: -0.232143px;
+    
+    color: #2C2C2C;
+}
+
+
+/* map */
+.map{
+     width: 100%;
+     height: 600px;
+}

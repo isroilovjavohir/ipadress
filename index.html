@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>IP-adress-tracker</title>
+    <link rel="shortcut icon" href="./img/ip.png " type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="title">IP Address Tracker</h1>
+            <form class="form" action="">
+                <input autofocus placeholder="Search for any IP address or domain" class="search-input" type="search"  id="search-input">
+                <button class="search-btn">></button>
+            </form>
+        </header>
+        <main class="main">
+            <div class="grid hidden">
+                <div class="grid-item ">
+                    <div class="about">
+                        <h2 class="about-name">IP Address</h2>
+                        <div class="about-value ip-number">192.212.174.101</div>
+                    </div>
+                    <hr class="hr">
+                </div>
+               
+                <div class="grid-item ">
+                    <div class="about">
+                        <h2 class="about-name">Location</h2>
+                        <div class="about-value city">Brooklyn, NY10001</div>
+                    </div>
+                    
+                    <hr class="hr">
+                </div>
+                <div class="grid-item ">
+                    <div class="about">
+                        <h2 class="about-name">Timezone</h2>
+                        <div class="about-value time">UTC -05:00     </div>
+                    </div>
+                    <hr class="hr">
+                </div>
+                <div class="grid-item ">
+                    <div class="about">
+                        <h2 class="about-name">ISP</h2>
+                        <div class="about-value space">SpaceX Starlink</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="map">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
